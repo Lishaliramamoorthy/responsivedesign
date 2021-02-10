@@ -25,7 +25,7 @@ Publish the website in the given URL.
 ## PROGRAM:
 
 ## responsivebase.html
-
+```
 {% load static %}
 <!doctype html>
 <html lang="en">
@@ -82,9 +82,9 @@ Publish the website in the given URL.
 </body>
 
 </html>
-
+```
 ## responsivehome.html
-
+```
 {% extends "design/responsivebase.html" %}
 
 {% block content %}
@@ -106,9 +106,9 @@ Publish the website in the given URL.
 </div>
 {% endblock  %}
 
-
+```
 ## responsiveproduct.html
-
+```
 {% extends "design/responsivebase.html" %}
 
 {% block content %}
@@ -218,9 +218,9 @@ Publish the website in the given URL.
 </div>
 {% endblock  %}
 
-
+```
 ## responsivepeople.html
-
+```
 {% extends "design/responsivebase.html" %}
 
 {% block content %}
@@ -286,9 +286,9 @@ Publish the website in the given URL.
         </div>
     </div>
  {% endblock  %}
-
+```
 ## responsivecontactus.html
-
+```
 {% extends "design/responsivebase.html" %}
 
 {% block content %}
@@ -310,7 +310,7 @@ Publish the website in the given URL.
 </div>
 {% endblock  %}
 
-
+```
 ## OUTPUT:
 ![output](./static/img/h1.png)
 ![output](./static/img/h2.png)
